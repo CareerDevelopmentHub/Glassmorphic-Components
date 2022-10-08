@@ -1,5 +1,5 @@
 # Glassmorphic-Components
-#This project is about glassmorphic compoments.
+## This project is about glassmorphic compoments.
 
 - It comprises of several components of with glassmorphism effect.
 - It has been built using HTML and CSS only.

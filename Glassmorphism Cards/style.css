@@ -12,11 +12,23 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     
 }
 #menu {
-	background: #080808;
+	/* background: #080808; */
 	color: #FFF;
-	height: 45px;
+	height: 8vh;
+    width: 90vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
 	padding-left: 18px;
 	border-radius: 0px;
+    background: rgba(39, 38, 38, 0.75);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.75);
+    margin: 30px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    opacity: 0.85;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -34,18 +46,26 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 #menu a {
 	display: block;
 	line-height: 45px;
-	padding: 0 14px;
+	padding: 5px 15px;
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #0099CC;
+	color: black;
 	background: #F2F2F2;
+    opacity: 0.75;
 }
 #menu input {
 	display: none;
@@ -179,7 +199,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
    
     display:block ;
     width: 30%;
-    height: 200px;
+    height: 285px;
     min-width: auto;
     margin: auto;
     margin-bottom: 10px;
@@ -360,3 +380,21 @@ vertical-align: -2px;
     margin-left: 20% ;
     margin-top: 20%;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #fcb045, #fd1d1d, #833ab4); 
+  }

@@ -199,7 +199,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
    
     display:block ;
     width: 30%;
-    height: 200px;
+    height: 285px;
     min-width: auto;
     margin: auto;
     margin-bottom: 10px;
@@ -380,7 +380,7 @@ vertical-align: -2px;
     margin-left: 20% ;
     margin-top: 20%;
 }
-::-webkit-scrollbar {
+:-webkit-scrollbar {
     width: 15px;
   }
   

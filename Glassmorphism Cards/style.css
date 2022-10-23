@@ -198,7 +198,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 .box-1{
    
     display:block ;
-    width: 30%;
+    width: 50%;
     height: 285px;
     min-width: auto;
     margin: auto;
@@ -295,13 +295,24 @@ vertical-align: -2px;
     margin: 5px auto;
 }
 
-.card-logo img{
+.card-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.relief{
     height: 30%;
     width: 40%;
     margin-left: 1%;
     margin-top: 2%;
-    
 }
+
+.chip {
+    height: 10%;
+    width: 15%;
+    margin-left: 40%;
+}
+
 .card-number{
     height: 18%;
     width: 90%;
@@ -315,8 +326,20 @@ vertical-align: -2px;
     overflow: hidden;
     padding: 2px;
     text-align: center;
-    
+}
 
+.box-1 .name{
+    text-align: center;
+    margin-right: 32%;
+    margin-top: -15px;
+    font-size: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    opacity: 0.3;
+    
 }
 
 .card2-logo img{

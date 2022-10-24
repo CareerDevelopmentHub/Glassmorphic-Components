@@ -1,15 +1,10 @@
-
 body{
     font-family: "Open Sans", sans-serif;
     margin: 0;
     width: 100%;
     background: #833ab4;  
-background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
-background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-
-    
-
-    
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);   
 }
 #menu {
 	/* background: #080808; */
@@ -22,13 +17,16 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 	border-radius: 0px;
     background: rgba(39, 38, 38, 0.75);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.75);
-    margin: 30px auto;
+    margin: 0px 3rem;
+    margin-top: -4.5rem;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     opacity: 0.85;
+    position: fixed;
+    z-index: 2;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -113,7 +111,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 	color: #444444;
 }
 @media screen and (max-width: 800px){
-	#menu {position:relative}
+    #menu{height: 8vh;width: 90vw;margin: 0rem 1rem;margin-top: -4.5rem;}
 	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
 	#menu ul.sub-menus {width:100%;position:static;}
 	#menu ul.sub-menus a {padding-left:30px;}
@@ -124,8 +122,6 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
-
-
 .demo{
     background:linear-gradient(90deg,#cc2b5e,#753a88);
 }
@@ -161,10 +157,8 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     
 }
 .main{
-    
     display: block;
     width:80%;
-    
     background: rgba(39, 38, 38, 0.75);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.75);
     margin: 80px auto;
@@ -174,10 +168,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     opacity: 0.75;
-    
- 
-   
-    
+    padding-bottom: 1rem;
 }
 .main-heading{
     color: #fff;
@@ -196,20 +187,18 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
 
 .box-1{
-   
-    display:block ;
+    display:block;
     width: 50%;
     height: 285px;
     min-width: auto;
     margin: auto;
     margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.25);
-box-shadow: 0 8px 32px 0 rgba(124, 127, 149, 0.5);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-
+    box-shadow: 0 8px 32px 0 rgba(124, 127, 149, 0.5);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .box-2{
     display:block ;
@@ -240,8 +229,45 @@ backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-
+}
+.box-4{
+    display:block;
+    width: 50%;
+    height: 285px;
+    min-width: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(124, 127, 149, 0.5);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.visiting-logo img{
+    width: 60%;
+    height: 100%;
+}
+.visiting-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details img{
+    width: 1rem;
+    height: 1rem;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .foot{
 background-color: #000;
@@ -338,8 +364,7 @@ vertical-align: -2px;
     margin-left: 4%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
-    opacity: 0.3;
-    
+    opacity: 0.3;   
 }
 
 .card2-logo img{

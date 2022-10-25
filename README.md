@@ -14,6 +14,18 @@
 - You can also update your name in the contributors list in README.md.
 - Yes, we are accepting contributions for hacktober fest 2022.
 
+## Steps to Contribute in the Repository
+
+1.Fork this repo
+
+2.Create a new folder/repository for your projects
+
+3.Add useful/relevant content for the problem stated
+
+4.Click on create pull request--> Contribute
+
+5.Now, we will review the pull request and merge it. if finds it okay.
+
 ## Contributors List
 - [Shashank Pandey](https://github.com/shashank-iter)
 

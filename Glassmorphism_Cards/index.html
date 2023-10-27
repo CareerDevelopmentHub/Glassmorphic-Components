@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+      <li><a href='index.html'>Home</a></li>
+      <li><a href='https://github.com/shashank-iter' target="_blank">Contact Us</a></li>
+      <li><a href="login_page.html"></a></li>
+    </ul>
+    
+  </nav>
+  <div class="main">
+    <label for="switch" style="float: right; padding-left: 20px;">
+      <input type="checkbox" id="switch" class="switch">
+      <label for="switch"></label>
+</label>
+<script>
+  const $html = document.querySelector("html");
+  const $checkbox = document.querySelector("#switch");
+  
+  $checkbox.addEventListener("change", function() {
+      $html.classList.toggle("light-mode");
+  });
+  </script>
+    <h1 class="main-heading">Glassmorphic Credit Card</h1>
+    <div class="box-1">
+      <div class="card-logo">
+        <img class="relief" src="Untitled_design_1_-removebg-preview.631ca0cce58337.11261255.png"
+          alt="relief">
+        <img class="chip" src="chip.png" alt="chip">
+      </div>
+      <div class="card-number">3256 2335 5669 4566</div>
+      <div class="name">SHASHANK PANDEY</div>
+    </div>
+
+    <h1 class="main-heading">Glassmorphic Identity Card</h1>
+    <div class="box-2">
+      <div class="card2-logo"><img
+          src="Untitled_design_1_-removebg-preview.631ca0cce58337.11261255.png" alt="relief"></div>
+      <div class="img"><img src="Metamask-icon.png" alt="Picture"></div>
+      <div class="card-name">SHASHANK PANDEY</div>
+      <div class="card-profes">B.TECH CSE </div>
+      <div class="college"> Institute of Technical Research and Education</div>
+      <div class="university">Siksha 'O' Anusandhan University</div>
+    </div>
+
+    <h1 class="main-heading">Glassmorphic Banner</h1>
+    <div class="box-3"> <img src="Untitled_design_1_-removebg-preview.631ca0cce58337.11261255.png"
+        alt="banner text"> </div>
+
+    <h1 class="main-heading">Glassmorphic Circle</h1>
+    <div class="circle"><img src="Metamask-icon.png" alt="metamask"></div>
+
+    <h1 class="main-heading">Glassmorphic Visiting Card</h1>
+    <div class="box-4">
+      <div class="visiting-logo">
+        <img src="Untitled_design_1_-removebg-preview.631ca0cce58337.11261255.png" alt="chip">
+      </div>
+      <div class="details">
+        <img src="phone.png" alt="">
+        <p> +917428730894</p>
+      </div>
+    </div>
+    <h1 class="main-heading">Glassmorphic Voucher</h1>
+    <div class="box-5">
+      <div class="left-voucher">
+        <h2>VOUCHER</h2>
+        <p class="valid">Valid Until <span>24 July 2025</span></p>
+        <hr>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae incidunt magnam dolorem.</p>
+      </div>
+      <div class="right-voucher">
+        <hr>
+        <h2>VOUCHER</h2>
+        <h3>$25</h3>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="foot">
+      <span class="footer-text">Made by SHASHANK PANDEY | © All rights reserved 2022</span>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
